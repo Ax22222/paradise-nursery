@@ -1,0 +1,43 @@
+.app-container, body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Landing Background Image Rule Requirement */
+.landing-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('https://unsplash.com');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.landing_content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.get-started-btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #45a049;
+}
